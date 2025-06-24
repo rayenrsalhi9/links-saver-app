@@ -1,0 +1,67 @@
+:root {
+    --dark-color: #111;
+    --light-color: #fafafa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 12px;
+}
+
+label {
+    color: var(--dark-color);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid var(--dark-color);
+    margin-bottom: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background: var(--dark-color);
+    color: var(--light-color);
+    padding: 10px 20px;
+    border: 1px solid var(--dark-color);
+    cursor: pointer;
+}
+
+#delete-btn {
+    background: var(--light-color);
+    color: var(--dark-color);
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+    max-width: 300px;
+}
+
+li {
+    margin-top: 5px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+a {
+    color: var(--dark-color);
+    word-break: break-word;
+    display: inline-block;
+    max-width: 100%;
+}
