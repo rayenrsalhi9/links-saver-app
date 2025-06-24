@@ -33,9 +33,12 @@ input {
 }
 
 button {
+    display: block;
+    width: 100%;
     background: var(--dark-color);
     color: var(--light-color);
     padding: 10px 20px;
+    margin-top: 5px;
     border: 1px solid var(--dark-color);
     cursor: pointer;
 }
@@ -49,8 +52,6 @@ ul {
     margin-top: 20px;
     list-style: none;
     padding-left: 0;
-    width: 100%;
-    max-width: 300px;
 }
 
 li {
